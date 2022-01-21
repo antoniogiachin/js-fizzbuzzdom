@@ -39,17 +39,14 @@ h1{
 
 .box-three{
     background-color: #0BD6A1;
-    content: "fizz";
 }
 
 .box-five{
     background-color: #FFD166;
-    content: "buzz";
 }
 
 .box-both{
     background-color: #F0466F;
-    content: "fizzbuzz";
 }
 
 .box:hover{

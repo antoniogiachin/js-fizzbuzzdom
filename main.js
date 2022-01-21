@@ -14,6 +14,7 @@ for (let i = 1; i <= 1000; i++){
         container.innerHTML += '<div class="box box-five">buzz</div>';
     }  else{
         container.innerHTML += `<div class="box box-main">${i}</div>`;
-    }                    
+    }
+        
      
 }
