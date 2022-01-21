@@ -21,14 +21,38 @@ h1{
     margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .box{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90px;
-    height: 90px;
-    margin: 10px;
+    width: 80px;
+    height: 80px;
+    color: #000;
+}
+
+.box-main{
     background-color: #118ab2;
+}
+
+.box-three{
+    background-color: #0BD6A1;
+    content: "fizz";
+}
+
+.box-five{
+    background-color: #FFD166;
+    content: "buzz";
+}
+
+.box-both{
+    background-color: #F0466F;
+    content: "fizzbuzz";
+}
+
+.box:hover{
+    filter: opacity(0.8);
+    cursor: pointer;
 }
